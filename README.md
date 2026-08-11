@@ -37,11 +37,11 @@ The project focuses on building a clean, premium-looking interface while practic
 
 ### ☀️ Light Mode
 
-> ![Light Mode](light Theme.png)
+> (![Light Theme](light%20Theme.png))
 
 ### 🌙 Dark Mode
 
-> ![ Dark Mode](dark Theme.png) 
+> (![Dark Theme](dark%20Theme.png))
 
 ---
 
