@@ -1,16 +1,80 @@
-# React + Vite
+# 🌙 React Theme Changer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive profile card UI built with **React.js** and **Tailwind CSS**, featuring a smooth Light/Dark theme switching experience.
 
-Currently, two official plugins are available:
+The project focuses on building a clean, premium-looking interface while practicing **React Context API**, reusable components, Tailwind CSS, and interactive UI animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ☀️ Light Mode
+- 🌙 Dark Mode
+- 🔄 Smooth theme switching
+- 🎨 Modern and minimal profile card UI
+- ⚛️ React Context API for theme management
+- 🌓 Dynamic Sun/Moon theme icons
+- ✨ Smooth hover and transition animations
+- 📱 Responsive design
+- 🧩 Reusable React components
+- 🎯 Clean and organized project structure
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|---|---|
+| ⚛️ React.js | Frontend UI |
+| 🎨 Tailwind CSS | Styling |
+| 🟨 JavaScript | Application logic |
+| 🌙 Lucide React | Icons |
+| ⚡ Vite | Development & build tool |
+
+---
+
+## 📸 Preview
+
+### ☀️ Light Mode
+
+> Add your light-mode screenshot here.
+
+### 🌙 Dark Mode
+
+> Add your dark-mode screenshot here.
+
+---
+
+## 🧠 What I Learned
+
+While building this project, I practiced:
+
+- Understanding React Context API
+- Creating and consuming custom hooks
+- Managing global theme state
+- Implementing Light/Dark mode
+- Using Tailwind CSS dark mode utilities
+- Creating reusable React components
+- Handling user interactions with event handlers
+- Adding smooth CSS transitions and animations
+- Structuring a React project cleanly
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Content.jsx
+│   ├── ProfileBtn.jsx
+│   ├── Status.jsx
+│   └── ThemeBtn.jsx
+│
+├── contexts/
+│   └── Theme.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
